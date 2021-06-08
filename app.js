@@ -1,0 +1,1 @@
+const resta = require('./resta');
