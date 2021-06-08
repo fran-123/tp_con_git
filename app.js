@@ -3,3 +3,5 @@ const resta = require('./resta');
 const multiplicar = require('./multiplicar');
 const dividir = require('./dividir');
 const mod = require('./mods');
+
+const process = require('process');

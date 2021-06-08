@@ -1,5 +1,5 @@
-resta = function (a,b) {
+let resta = function (a,b) {
     return a - b;
 }
 
-module.exports= resta
+module.exports = resta;
