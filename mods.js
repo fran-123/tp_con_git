@@ -1,5 +1,5 @@
-function mod(a,b) {
+let mod = function (a,b) {
     return a % b
     
 }
-module.exports = mods.js
+module.exports = mod;

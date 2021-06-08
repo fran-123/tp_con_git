@@ -1,6 +1,6 @@
 
-  suma =function(a,b) {
+  let suma = function (a,b) {
       return a + b
       
   }
-module.exports = suma.js
+module.exports = suma;
