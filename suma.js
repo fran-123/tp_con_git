@@ -1,5 +1,5 @@
 
-  function suma(a,b) {
+  suma =function(a,b) {
       return a + b
       
   }
