@@ -1,5 +1,5 @@
 module.exports = {
-    function resta(a,b) {
+    resta : function (a,b) {
         return a - b;
     }
 }
