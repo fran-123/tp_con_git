@@ -6,21 +6,23 @@ const mod = require('./mods');
 
 const process = require('process');
 
+let resultado = 0;
+
 switch (process.argv[2]) {
     case 'sumar':
-        suma(+process.argv[3],+process.argv[4]);
+        resultado = suma(+process.argv[3],+process.argv[4]);
         break;
     case 'restar':
-        resta(+process.argv[3],+process.argv[4]);
+        resultado = resta(+process.argv[3],+process.argv[4]);
         break;
     case 'multiplicar':
-        multiplicar(+process.argv[3],+process.argv[4]);
+        resultado = multiplicar(+process.argv[3],+process.argv[4]);
         break;
     case 'dividir':
-        dividir(+process.argv[3],+process.argv[4]);
+        resultado = dividir(+process.argv[3],+process.argv[4]);
         break;
     case 'modulo':
-        mod(+process.argv[3],+process.argv[4]);
+        resultado = mod(+process.argv[3],+process.argv[4]);
         break;
     default:
         break;
