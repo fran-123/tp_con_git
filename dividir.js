@@ -6,5 +6,3 @@ let dividir = (a,b) => {
 }
 
 module.exports = dividir;
-
-console.log(dividir(15,5));
